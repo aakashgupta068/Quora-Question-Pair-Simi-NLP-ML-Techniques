@@ -174,5 +174,48 @@ Features:
 * Convert each Pre-processed Question1 and Question2 text into TF-IDF Weighted Vectors, then do Vector Dot-Product on those two vectors to get the cosine similarity.
 * Here, we are using vectors where each single word represents a dimension and has a **value = TF * IDF**
 
-<img src="https://miro.medium.com/max/1200/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" width="500px" height="200px">
+<img src="https://miro.medium.com/max/1200/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" width="500px" height="400px">
 
+## <a id="13">13. Model Fitting</a>
+
+## <a id="14">14. Logistic Model Performance</a>
+
+## <a id="15">15. Different Classification Model Performance Comparison</a>
+
+## <a id="16">16. Varying threshold to minimise False Duplicates</a>
+Which error- FPR or FNR is important for us ?
+
+When searching for duplicates, if the model predict a wrong question as duplicate, then that will be more costly rather than predicting a true duplicate question as non-duplicate
+
+So,considering **Duplicate='Yes'** as Positive Class & **Duplicate='No'** as Negative Class, 
+* **FPR** = True Non-Duplicate Questions that were predicted Duplicate by model
+* **FNR** = True Duplicate Questions that were predicted Non-Duplicate by model
+* **TPR** = True Duplicate Questions that were predicted Duplicate by Model
+* **TNR** = True Non-Duplicate Questions that were predicted Non-Duplicate by model
+
+## <a id="17">17. K-Fold Cross Validation</a>
+
+## <a id="18">18. Confidence Interval & p-value of Coefficients of Logistic Regression</a>
+
+## <a id="19">19. Importing Test data</a>
+
+## <a id="20">20. Missing values in Test Dataset</a>
+Imputing Nan values using "Unknown"
+
+## <a id="21">21. Analysis of Unique & Repeated Questions in Test Set</a>
+
+## <a id="22">22. Test Data: Pre-processing of Text</a>
+
+## <a id="23">23. Clustering of Questions</a>
+
+## <a id="24">24. Basic Text-Feature Engineering</a>
+
+## <a id="25">25. Advanced Text-Feature Engineering in Test Data</a>
+
+## <a id="26">26. Fuzzy Text-Similarity Ratios Extracted from Test Data</a>
+
+## <a id="27">27. Cosine Similarity Extracted for Test data</a>
+
+## <a id="28">28. Training Random Forrest Classifier Model on entire Train dataset</a>
+
+## <a id="29">29. Prediction on Test set & Submission</a>
