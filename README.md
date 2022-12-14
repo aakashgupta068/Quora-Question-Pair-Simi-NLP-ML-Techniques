@@ -96,9 +96,11 @@ Data fields
 ## <a id="2">2. Is data imbalanced ?</a>
 We have 63% of Non-duplicates, 37% of duplicates, signifiy slighlty imbalanced dataset
 
-<a href="https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250&scriptVersionId=113799250&cellId=4"></a>
-
-https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250&scriptVersionId=113799250&cellId=4
+<div style="background-color:#F8F6F0;font-size:17px;font-family:Georgia;border-style: solid;border-color: #EDE6D6;border-width:1px;padding:20px;margin: 0px;color:#254E58;overflow:hidden">
+    <iframe src="https://www.kaggle.com/embed/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Quora Questions EDA TfIdf Similarity">
+    </iframe>
+    <p style="color:blue"><b>1) I have extracted Features for Similarity Measures Like</b></p> 
+</div>
 
 ## <a id="3">3. Checking Missing values</a>
 Question2 with qid2= 174364 is the only missing among Question2 with no other occurances
