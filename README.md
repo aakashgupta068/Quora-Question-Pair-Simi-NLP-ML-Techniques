@@ -153,16 +153,21 @@ Features:
 - __csc_min__ :  Ratio of common_stop_count to min lenghth of stop count of Q1 and Q2 <br> csc_min = common_stop_count / (min(len(q1_stops), len(q2_stops))
 - __csc_max__ :  Ratio of common_stop_count to max lenghth of stop count of Q1 and Q2<br>csc_max = common_stop_count / (max(len(q1_stops), len(q2_stops))
 - __ctc_min__ :  Ratio of common_token_count to min lenghth of token count of Q1 and Q2<br>ctc_min = common_token_count / (min(len(q1_tokens), len(q2_tokens))
-<br>
 - __ctc_max__ :  Ratio of common_token_count to max lenghth of token count of Q1 and Q2<br>ctc_max = common_token_count / (max(len(q1_tokens), len(q2_tokens))
-<br>
 - __last_word_eq__ :  Check if last word of both questions is equal or not<br>last_word_eq = int(q1_tokens[-1] == q2_tokens[-1])
-<br>
 - __first_word_eq__ :  Check if First word of both questions is equal or not<br>first_word_eq = int(q1_tokens[0] == q2_tokens[0])
-<br>
 - __abs_len_diff__ :  Abs. length difference<br>abs_len_diff = abs(len(q1_tokens) - len(q2_tokens))
-<br>
 - __mean_len__ :  Average Token Length of both Questions<br>mean_len = (len(q1_tokens) + len(q2_tokens))/2
-<br>
 - __longest_substr_ratio__ :  Ratio of length longest common substring to min lenghth of token count of Q1 and Q2<br>longest_substr_ratio = len(longest common substring) / (min(len(q1_tokens), len(q2_tokens))
+
+## <a id="11">11. Fuzzy Text Similarity Feature Extraction</a>
+#### String Similarity Measures:
+* Fuzz Ratio
+* fuzz.partial_ratio
+* fuzz.token_sort_ratio
+* fuzz.token_set_ratio
+* fuzz.WRatio
+
+## <a id="12">12. Finding Cosine Similarity from TF-IDF Text Vectors</a>
+<img src="https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine.png" width="400px" height="400px">
 
