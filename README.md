@@ -96,7 +96,7 @@ Data fields
 ## <a id="2">2. Is data imbalanced ?</a>
 We have 63% of Non-duplicates, 37% of duplicates, signifiy slighlty imbalanced dataset
 
-<a href="[https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250](https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250&scriptVersionId=113799250&cellId=4)"></a>
+<a href="https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250&scriptVersionId=113799250&cellId=4"></a>
 
 https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250&scriptVersionId=113799250&cellId=4
 
