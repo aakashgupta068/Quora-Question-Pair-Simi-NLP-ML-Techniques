@@ -97,7 +97,8 @@ Data fields
 
 <iframe src="https://www.kaggle.com/embed/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=14&kernelSessionId=113799250" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Quora Questions EDA TfIdf Similarity"></iframe>
 
-<img src="https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?scriptVersionId=113799250&cellId=13.png" width="400px" height="200px">
+https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250
+<img src="https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250" width="400px" height="200px">
 
 We have 63% of Non-duplicates, 37% of duplicates, signifiy slighlty imbalanced dataset
 
