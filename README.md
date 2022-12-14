@@ -94,9 +94,9 @@ Data fields
 * is_duplicate - the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise
 
 ## <a id="2">2. Is data imbalanced ?</a>
-
+<div>
 <iframe src="https://www.kaggle.com/embed/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=14&kernelSessionId=113799250" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Quora Questions EDA TfIdf Similarity"></iframe>
-
+</div>
 https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250
 <img src="https://www.kaggle.com/code/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=13&kernelSessionId=113799250" width="400px" height="200px">
 
