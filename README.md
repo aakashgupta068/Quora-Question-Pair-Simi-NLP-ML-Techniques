@@ -94,7 +94,9 @@ Data fields
 * is_duplicate - the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise
 
 ## <a id="2">2. Is data imbalanced ?</a>
+
 <iframe src="https://www.kaggle.com/embed/newbieag068/quora-questions-eda-tfidf-similarity?cellIds=14&kernelSessionId=113799250" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Quora Questions EDA TfIdf Similarity"></iframe>
+
 We have 63% of Non-duplicates, 37% of duplicates, signifiy slighlty imbalanced dataset
 
 
