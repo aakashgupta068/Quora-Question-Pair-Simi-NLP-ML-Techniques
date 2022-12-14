@@ -51,3 +51,48 @@ The goal of this competition is to predict which of the provided pairs of questi
 **Examples of some Personal Or Opinion-based questions**:  
 - 'Who do you think is the biggest actor in Bollywood?', 
 - 'What things you can do on the internet to make money?'
+
+# Contents
+
+Table of Content
+<br><a href="#1">1. Data Definations</a>
+<br><a href="#2">2. Is data imbalanced</a>
+<br><a href="#3">3. Checking Missing values</a>
+<br><a href="#4">4. Check number of unique questions and duplicates in whole corpus</a>
+<br><a href="#5">5. Distribution of repeated Questions</a>
+<br><a href="#6">6. Text Pre-processing</a>
+<br><a href="#7">7. Clustering of Questions</a>
+<br><a href="#8">8. Word-Clouds of different Questions Cluster</a>
+<br><a href="#9">9. Basic Feature Extraction</a>
+<br><a href="#10">10. Advanced Text Feature Extraction</a>
+<br><a href="#11">11. Fuzzy Text Similarity Feature Extraction</a></a>
+<br><a href="#12">12. Finding Cosine Similarity from TF-IDF Text Vectors</a>
+<br><a href="#13">13. Model Fitting</a>
+<br><a href="#14">14. Logistic Model Performance</a></a>
+<br><a href="#15">15. Different Classification Model Performance Comparison</a>
+<br><a href="#16">16. Varying threshold to minimise False Duplicates</a>
+<br><a href="#17">17. K-Fold Cross Validation</a></a>
+<br><a href="#18">18. Confidence Interval & p-value of Coefficients of Logistic Regression</a></a></a>
+<br><a href="#19">19. Importing Test data</a></a>
+<br><a href="#20">20. Missing values in Test Dataset</a></a>
+<br><a href="#21">21. Analysis of Unique & Repeated Questions in Test Set</a></a>
+<br><a href="#22">22. Test Data: Pre-processing of Text</a></a>
+<br><a href="#23">23. Clustering of Questions</a></a>
+<br><a href="#24">24. Basic Text-Feature Engineering</a></a>
+<br><a href="#25">25. Advanced Text-Feature Engineering in Test Data</a></a>
+<br><a href="#26">26. Fuzzy Text-Similarity Ratios Extracted from Test Data</a></a>
+<br><a href="#27">27. Cosine Similarity Extracted for Test data</a>
+<br><a href="#28">28. Training Random Forrest Classifier Model on entire Train dataset</a>
+<br><a href="#29">29. Prediction on Test set & Submission</a>
+
+## <a id="1">1. Dataset Description</a>
+
+Data fields
+* id - the id of a training set question pair
+* qid1, qid2 - unique ids of each question (only available in train.csv)
+* question1, question2 - the full text of each question
+* is_duplicate - the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise
+
+## <a id="2">2. Is data imbalanced ?</a>
+
+We have 63% of Non-duplicates, 37% of duplicates, signifiy slighlty imbalanced dataset
