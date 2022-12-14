@@ -171,3 +171,8 @@ Features:
 ## <a id="12">12. Finding Cosine Similarity from TF-IDF Text Vectors</a>
 <img src="https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine.png" width="400px" height="200px">
 
+* Convert each Pre-processed Question1 and Question2 text into TF-IDF Weighted Vectors, then do Vector Dot-Product on those two vectors to get the cosine similarity.
+* Here, we are using vectors where each single word represents a dimension and has a **value = TF * IDF**
+
+<img src="https://miro.medium.com/max/1200/1*qQgnyPLDIkUmeZKN2_ZWbQ.png" width="500px" height="200px">
+
