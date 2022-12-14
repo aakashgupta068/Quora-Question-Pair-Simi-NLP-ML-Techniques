@@ -96,3 +96,77 @@ Data fields
 ## <a id="2">2. Is data imbalanced ?</a>
 
 We have 63% of Non-duplicates, 37% of duplicates, signifiy slighlty imbalanced dataset
+
+
+## <a id="3">3. Checking Missing values</a>
+Question2 with qid2= 174364 is the only missing among Question2 with no other occurances
+Question1 with qid1= 493340 is the only missing among Question1 with no other occurances
+
+**Conclusion**
+* Since, we can't find any occurances of these missing questions, bettter to drop these rows
+* Only 3 rows have a missing question overall (out of 404290 Question Pairs). Hence we can delete these 3 missing Question Pairs
+Dropping these 3 rows with missing Question Pairs
+
+## <a id="4">4. Check number of unique questions and duplicates in whole corpus</a>
+
+## <a id="5">5. Distribution of repeated Questions</a>
+
+## <a id="6">6. Text Pre-processing</a>
+
+## <a id="7">7. Clustering of Questions</a>
+
+## <a id="7">7. Clustering of Questions</a>
+
+**Conclusion**
+Here, we see that, at Cluster number=5, there is a slight dip, post which Sum of Sq Distance dips linearly.
+So, we take optimum cluster number as 5 & map the cluster to the respective question
+
+## <a id="8">8. Major words in each word cloud</a>
+Using Optimum Cluster Number as 9. 
+
+## <a id="9">9. Basic Feature Extraction</a>
+
+Let us now contruct few features like:
+
+* Same Cluster: 1 if both Question-1 & Question-2 belongs to same cluster, else 0
+* freq_qid1: Frequency of qid1's
+* freq_qid2: Frequency of qid2's
+* q1len: Length of q1
+* q2len: Length of q2
+* q1_n_words: Number of words in Questions 1
+* q2_n_words: Number of words in Questions 2
+* word_Common: (Number of common unique words in Question 1 and Questions 2)
+* word_Total: Total num of words in Question1 + Total num of words in Question 2
+* **Dice’s coefficient** word_share : 2*(word_common)/(word_Total)
+* freq_q1 + freq_q2: sum total of frequency of qid1 and qid2
+* freq_q1 - freq_q2: absolute difference of frequency of qid1 and qid2
+
+## <a id="10">10. Advanced Text Feature Extraction</a>
+Definition:
+- __Token__: You get a token by splitting sentence a space
+- __Stop_Word__ : stop words as per NLTK.
+- __Word__ : A token that is not a stop_word
+
+Features:
+- __cwc_min__ :  Ratio of common_word_count to min lenghth of word count of Q1 and Q2 <br>cwc_min = common_word_count / (min(len(q1_words), len(q2_words))
+<br>
+- __cwc_max__ :  Ratio of common_word_count to max lenghth of word count of Q1 and Q2 <br>cwc_max = common_word_count / (max(len(q1_words), len(q2_words))
+<br>
+- __csc_min__ :  Ratio of common_stop_count to min lenghth of stop count of Q1 and Q2 <br> csc_min = common_stop_count / (min(len(q1_stops), len(q2_stops))
+<br>
+- __csc_max__ :  Ratio of common_stop_count to max lenghth of stop count of Q1 and Q2<br>csc_max = common_stop_count / (max(len(q1_stops), len(q2_stops))
+<br>
+- __ctc_min__ :  Ratio of common_token_count to min lenghth of token count of Q1 and Q2<br>ctc_min = common_token_count / (min(len(q1_tokens), len(q2_tokens))
+<br>
+- __ctc_max__ :  Ratio of common_token_count to max lenghth of token count of Q1 and Q2<br>ctc_max = common_token_count / (max(len(q1_tokens), len(q2_tokens))
+<br>
+- __last_word_eq__ :  Check if last word of both questions is equal or not<br>last_word_eq = int(q1_tokens[-1] == q2_tokens[-1])
+<br>
+- __first_word_eq__ :  Check if First word of both questions is equal or not<br>first_word_eq = int(q1_tokens[0] == q2_tokens[0])
+<br>
+- __abs_len_diff__ :  Abs. length difference<br>abs_len_diff = abs(len(q1_tokens) - len(q2_tokens))
+<br>
+- __mean_len__ :  Average Token Length of both Questions<br>mean_len = (len(q1_tokens) + len(q2_tokens))/2
+<br>
+- __longest_substr_ratio__ :  Ratio of length longest common substring to min lenghth of token count of Q1 and Q2<br>longest_substr_ratio = len(longest common substring) / (min(len(q1_tokens), len(q2_tokens))
+
