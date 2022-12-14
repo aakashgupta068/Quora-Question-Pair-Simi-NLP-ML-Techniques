@@ -34,3 +34,18 @@ The goal of this competition is to predict which of the provided pairs of questi
 <div style="background-color:#F8F6F0;font-size:17px;font-family:Georgia;border-style: solid;border-color: #EDE6D6;border-width:1px;padding:20px;margin: 0px;color:#254E58;overflow:hidden">
     <p style="color:blue"><b>4) Log-Loss from RF was the lowest (0.17) in Train Data, which spiked to 0.72 in Test Submission. This means, distribution of data changed drastically from Train to Test</b></p> 
 </div>
+# Key-Insights
+- Percentage of Questions with '?' (not necessarily ending with): 99.864 %
+- Number of Math based questions:  0.138647 %
+
+**Questions with multiple parts**: 5.542 %
+
+**Examples of Questions with subparts** :
+- 'How safe is it to take 90 mg of codeine? What are the health concerns?', 
+- 'Which is the best 50" tv to buy in India? Very confused with sony Samsung or lg? And confused with 4k n full hd.!'
+
+**Personal or Opinion-based questions**: 12.038 %
+
+**Examples of some Personal Or Opinion-based questions**:  
+- 'Who do you think is the biggest actor in Bollywood?', 
+- 'What things you can do on the internet to make money?'
