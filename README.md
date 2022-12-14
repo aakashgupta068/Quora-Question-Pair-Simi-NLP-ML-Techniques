@@ -169,5 +169,5 @@ Features:
 * fuzz.WRatio
 
 ## <a id="12">12. Finding Cosine Similarity from TF-IDF Text Vectors</a>
-<img src="https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine.png" width="400px" height="400px">
+<img src="https://www.machinelearningplus.com/wp-content/uploads/2018/10/soft-cosine.png" width="400px" height="200px">
 
