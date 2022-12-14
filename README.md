@@ -34,7 +34,9 @@ The goal of this competition is to predict which of the provided pairs of questi
 <div style="background-color:#F8F6F0;font-size:17px;font-family:Georgia;border-style: solid;border-color: #EDE6D6;border-width:1px;padding:20px;margin: 0px;color:#254E58;overflow:hidden">
     <p style="color:blue"><b>4) Log-Loss from RF was the lowest (0.17) in Train Data, which spiked to 0.72 in Test Submission. This means, distribution of data changed drastically from Train to Test</b></p> 
 </div>
+
 # Key-Insights
+
 - Percentage of Questions with '?' (not necessarily ending with): 99.864 %
 - Number of Math based questions:  0.138647 %
 
